@@ -15,7 +15,6 @@ means changes would be needed to run it there.
 It has not been tested on Linux or newer OSX, but should work on both.
 Please test it on OSX.
 
-cd src
 javac com/wolf/filter/Filter.java 
 cat sample-with-broken-utf8.csv | java -cp . com.wolf.filter.Filter >out1 2>err1
 cat sample.csv | java -cp . com.wolf.filter.Filter >out2 2>err2

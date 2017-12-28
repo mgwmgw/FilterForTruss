@@ -1,5 +1,9 @@
 /**
- * 
+ * This is unit level testing of Filter.java.  It was written with junit4.
+ * It tests both that the methods which transform the data work correctly
+ * and that the column headings are correctly recognized.
+ * It does not include testing of performance or of large data
+ * that might stress machine resources.
  */
 package com.wolf.filter;
 
@@ -9,10 +13,6 @@ import java.io.StringWriter;
 
 import org.junit.Test;
 
-/**
- * @author admin
- *
- */
 public class FilterTest {
 
     @Test
