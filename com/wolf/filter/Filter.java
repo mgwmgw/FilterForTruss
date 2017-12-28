@@ -113,6 +113,7 @@ public class Filter {
         return String.valueOf(this.totalDuration.getSeconds()) + "." + 
                durationDecimalFormat.format(this.totalDuration.getNano() / 1000000);
     }
+    
     /**
      * Replace the input column content with appropriate output.
      * Delegate to appropriate method according to the column heading.
