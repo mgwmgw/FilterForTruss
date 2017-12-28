@@ -115,8 +115,6 @@ public class Filter {
     }
     /**
      * Replace the input column content with appropriate output.
-     * Choice of word "fix" is both in the sense of having one's car fixed
-     * and of having one's cat fixed.
      * Delegate to appropriate method according to the column heading.
      * This method returns after it has found the right column.
      * It also reinserts quoted strings previously removed.

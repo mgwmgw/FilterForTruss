@@ -77,7 +77,6 @@ public class FilterTest {
     
     @Test
     public void testCharacters() {
-        // Character.toString((char) 65533)
         String input = "1,2,3\n\u00e8,\u263a,\u2211";
         StringWriter out = new StringWriter();
         StringWriter err = new StringWriter();
