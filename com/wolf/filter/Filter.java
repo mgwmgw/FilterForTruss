@@ -115,7 +115,7 @@ public class Filter {
     }
     /**
      * Replace the input column content with appropriate output.
-     * Choice of word is both in the sense of having one's car fixed
+     * Choice of word "fix" is both in the sense of having one's car fixed
      * and of having one's cat fixed.
      * Delegate to appropriate method according to the column heading.
      * This method returns after it has found the right column.
@@ -128,7 +128,7 @@ public class Filter {
      * could also be added here.
      * @param columnHead column heading
      * @param data content of that column to process
-     * @return
+     * @return the result of fixing the data.
      */
     protected String fix(String columnHead, String data) {
         String regex = "quotedString\\((\\d+)\\)";
